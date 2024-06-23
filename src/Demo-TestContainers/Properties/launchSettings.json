@@ -8,7 +8,12 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5197",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_SERVER": "localhost",
+        "DB_PORT": "9001",
+        "DB_NAME": "orders",
+        "DB_USER": "orders",
+        "DB_PASSWORD": "another-password"
       }
     }
   }
